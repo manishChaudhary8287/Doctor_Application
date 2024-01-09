@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgMani"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/doc_image1"
+        app:shapeAppearanceOverlay="@style/Circular"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp" />
+
+    <TextView
+        android:id="@+id/txtName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgMani"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-100dp"
+        android:layout_toEndOf="@id/imgMani"
+        android:padding="10dp"
+        android:text="Manish Chaudhary"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txtSpecial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgMani"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-50dp"
+        android:layout_toEndOf="@id/imgMani"
+        android:padding="10dp"
+        android:minWidth="150dp"
+        android:text="Speciality"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/txtPrice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="price"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/txtSpecial"
+        android:layout_below="@id/txtName1"
+        android:minWidth="80dp"
+        android:layout_marginLeft="5dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/imgMani"
+        android:background="@color/black"
+        />
+</RelativeLayout>

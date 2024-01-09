@@ -1,0 +1,129 @@
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">Doctor Appointment App</string>
+    <string name="billing">Billing</string>
+    <string name="report">Report</string>
+    <string name="appointment">Appointment</string>
+    <string name="medicines">Medicines</string>
+    <string name="test">Test</string>
+    <string name="token">Token</string>
+    <string name="nav_open">open</string>
+    <string name="nav_close">close</string>
+    <string name="doctor">Doctor :</string>
+    <string name="doctorSelection">Select Your Doctor</string>
+    <string-array name="doctorlist">
+        <item>Select Your Doctor</item>
+        <item>Doctor 1</item>
+        <item>Doctor 2</item>
+        <item>Doctor 3</item>
+        <item>Doctor 4</item>
+        <item>Doctor 5</item>
+    </string-array>
+    <string name="selected_item">Selected item :</string>
+    <string name="patient_name">Patient Name :</string>
+    <string name="patient_phone">Patient Phone :</string>
+    <string name="enter_your_address"> Enter Your Address :</string>
+    <string name="gender">Gender :</string>
+    <string name="print_receipt">Print</string>
+    <string name="whatsapp_receipt">Whatsapp Receipt</string>
+    <string name="patient_description">Description :</string>
+    <string name="enter_your_description">Enter your description</string>
+    <string name="marqueeText"> The Current token is busy with the doctor</string>
+    <string name="doctor_s_profile_with_their_speciality_and_price">Doctor\'s Profile with their speciality and price.</string>
+    <string name="tests">\n
+Temperature measurement, with a thermometer\n
+Patient\'s Respiratory rate measurement\n
+Blood oxygen concentration measurement\n
+taking the patient\'s pulse\n
+weighing, and measuring height and girth\n
+measuring blood pressure\n\n
+
+abdominal palpation\n
+cardiac ausculation\n
+HEENT examination\n
+digital rectal examination\n
+neurological examination\n
+psychiatric assessment\n
+pulmonary auscultation\n
+vaginal examination\n
+\n
+coronary catheterization\n
+echocardiography\n
+electrocardiogram\n
+ballistocardiogram\n
+\n
+skin allergy test\n
+skin biopsy\n
+\n
+hearing test\n
+laryngoscopy\n
+vestibular tests\n
+electronystagmography (ENG)\n
+videonystagmography (VNG)\n
+\n
+capsule endoscopy\n
+coloscopy\n
+endoscopic retrograde cholangiopancreatography\n
+esophagogastroduodenoscopy\n
+esophageal motility study\n
+esophageal pH monitoring\n
+liver biopsy\n
+\n
+bone marrow examination\n
+\n
+biochemistry\n
+Arterial blood gas (ABG)\n
+Complete blood count (CBC)\n
+Comprehensive metabolic panel (CMP) (including CHEM-7)\n
+coagulation tests\n
+C-reactive protein\n
+Erythrocyte sedimentation rate (ESR)\n
+FibroTest\n
+urea breath test\n
+urinalysis\n
+Agostini\'s reaction\n
+cytogenetics and Molecular Genetics\n
+Genetic testing\n
+immunology\n
+autoantibodies\n
+microbiology\n
+blood culture\n
+mantoux test\n
+sputum culture\n
+stool culture\n
+urine culture\n
+\n
+electroencephalogram\n
+electromyography (EMG)\n
+lumbar puncture\n
+neuropsychological tests\n
+\n
+amniocentesis\n
+colposcopy\n
+mammography\n
+hysteroscopy\n
+laparoscopy\n
+Smear tests such as Pap smears\n
+\n
+dilated fundus examination\n
+multifocal electroretinography (mfERG)\n
+optical coherence tomography (OCT)\n
+visual field test\n
+\n
+polysomnography\n
+pulmonary pletysmography\n
+thoracentesis\n
+\n
+CT scan (B*2****)\n
+magnetic resonance imaging (MRI) (B*3****)\n
+nuclear medicine (C******)\n
+positron-emission tomography (PET)\n
+projectional radiography (B*0****)\n
+ultrasonography (B*4****)\n
+\n
+arthroscopy\n
+\n
+cystoscopy\n
+urodynamic testing\n</string>
+
+</resources>

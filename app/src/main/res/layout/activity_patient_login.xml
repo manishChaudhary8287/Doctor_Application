@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activity.PatientLoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="@color/primaryblue">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Patient Log In "
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                />
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/doc2"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="100dp"
+                />
+            <EditText
+                android:id="@+id/etUsernamePatientLogin"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:minHeight="50dp"
+                android:drawableStart="@drawable/baseline_email_24"
+                android:drawablePadding="2dp"
+                android:hint=" Enter Your Email Address" />
+
+            <EditText
+                android:id="@+id/etPasswordPatientLogin"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:drawableStart="@drawable/baseline_lock_24"
+                android:drawablePadding="2dp"
+                android:hint="Enter Your Password"
+                android:inputType="textPassword"
+
+                />
+            <Button
+                android:id="@+id/btnLoginPatientLogin"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="Log In"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:background="@color/primaryOrange"
+
+                />
+
+            <TextView
+                android:id="@+id/newPatient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Patient ? Click here "
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:fontFamily="serif"
+                android:layout_marginTop="20dp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

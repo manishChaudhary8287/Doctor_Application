@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "278753933881",
+    "project_id": "doctor-application-4daae",
+    "storage_bucket": "doctor-application-4daae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278753933881:android:a3dda5a1f1ef4d6ba46be8",
+        "android_client_info": {
+          "package_name": "com.manish.doctorapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhcFWm54xAM0uCcV76MLsKZGG5xmKi9og"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

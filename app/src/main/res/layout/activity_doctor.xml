@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DoctorActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txteditdoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:padding="10dp"
+                android:text="Add Doctors"
+                android:drawablePadding="20dp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:paddingStart="20dp"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/txteditdoc"
+                android:background="@color/black"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txteditappointment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:padding="10dp"
+                android:text="Manage Appointments"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/txteditappointment"
+                android:background="@color/black"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/manageDoctors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:padding="10dp"
+                android:text="Manage Doctors "
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/manageDoctors"
+                android:background="@color/black"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/manageReports"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:padding="10dp"
+                android:text="Manage Reports "
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/manageReports"
+                android:background="@color/black"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/managePayments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:padding="10dp"
+                android:text="Manage Payments "
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/managePayments"
+                android:background="@color/black"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/managePatient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:padding="10dp"
+                android:text="Manage Patient "
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/managePatient"
+                android:background="@color/black"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

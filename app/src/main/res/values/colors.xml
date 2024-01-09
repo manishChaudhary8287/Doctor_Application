@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="myDefaultColor">#ff9100</color>
+    <color name="appointColor">#d8bac6</color>
+    <color name="appTextColor">#2196f3</color>
+    <color name="pdfButton">#00e676</color>
+    <color name="btnAdded">#ffff00</color>
+    <color name="primaryblue">#1d8dcf</color>
+    <color name="primaryOrange">#f5a01c</color>
+    <color name="primaryGray">#393a3c</color>
+</resources>
